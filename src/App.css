@@ -1,0 +1,51 @@
+.h1{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.h1:hover{
+  color: blue;
+}
+.img img{
+  width: 396px;
+ border-radius: 6px;
+ cursor: pointer;
+ transition: all 0.5s;
+  height: 222px;
+}
+.img img:hover{
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+.card{
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.tex h2{
+  color: blue;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.desc h3{
+margin-top: 10px;
+letter-spacing: 1.5px;
+cursor: pointer;
+}
+.desc h3:hover{
+  background-color:linear-gradient(aqua,aqua,aqua)
+}
+.img h4{
+  margin-top: 15px;
+}
